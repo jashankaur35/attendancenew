@@ -1,0 +1,36 @@
+select {
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 5px;
+    width: -webkit-fill-available;
+}
+
+select option {
+    display: none; /* Hides the options */
+}
+
+.attendance-container {
+    width: 82%;
+    float: right;
+    margin-top: 20px;
+}
+
+.heading-attendance {
+    margin: 30px;
+}
+
+.month-attendance {
+    margin: 20px;
+}
+
+button.saveBtn {
+    margin-top: 20px;
+    padding: 10px 27px;
+    border-radius: 10px;
+    border: none;
+    background: #020081;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
